@@ -71,14 +71,14 @@ To use the Currency Converter Component in your React application, follow these 
 
 Import the `CurrencyConverter` component into the desired file where you want to use it. Typically, this could be in your main application file or a specific page.
 
-\```jsx
+```jsx
 import CurrencyConverter from './components/CurrencyConverter'; // Adjust the path as necessary
-\```
+```
 
  2. **Use the Component in Your JSX**
 
 Include the `CurrencyConverter` component within your JSX. For example, you might use it within a main `App` component or a specific page component.
-\```jsx
+```jsx
 function App() {
   return (
     <div className="App">
@@ -90,13 +90,13 @@ function App() {
 }
 
 export default App;
-\```
+```
 
 3. **Running the Application**
 
 Make sure your environment is set up and the application is configured to read from the `.env` file you created. Start your React application using:
 
-\```bash
+```bash
 npm start
-\```
+```
 
