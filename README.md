@@ -1,6 +1,6 @@
 # Currency Converter Web Component
 
-##Overview
+## Overview
 The Currency Converter Component is a web-based tool designed to facilitate the conversion of currency values between different international currencies. It is built using the React framework. The component interacts with a currency exchange API to fetch the latest exchange rates and perform real-time currency conversions.
 
 This component is ideal for applications that require up-to-date currency conversion capabilities, such as e-commerce platforms, travel planning tools, and financial dashboards. It provides users with a simple and intuitive interface to input values and select currencies for conversion, making it a useful addition to various web applications.
