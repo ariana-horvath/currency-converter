@@ -9,7 +9,7 @@ const CurrencyConverter = () => {
   const [exchangeRate, setExchangeRate] = useState(null);
   const [currencies, setCurrencies] = useState([]);
   const [error, setError] = useState(null);
-  const apiKey = '86851bd3de3b40278cf95411'; 
+  const apiKey = process.env.REACT_APP_CURRENCY_API_KEY; 
 
   useEffect(() => {
     // Fetch list of currencies
